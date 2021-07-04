@@ -38,7 +38,7 @@ if __name__ == '__main__':
     consumer = Consumer(props)
 
     # 步驟3. 指定想要訂閱訊息的 topic 名稱
-    topicName = 'ak03.test'
+    topicName = 'kafka_test.test'
 
     # 步驟4. 讓 Consumer 向 Kafka 集群訂閱指定的 topic
     consumer.subscribe([topicName])
